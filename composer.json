@@ -1,0 +1,45 @@
+{
+    "name": "qingbing/pf-database-dict",
+    "description": "数据表字典直连",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "database",
+        "dict",
+        "database-dict",
+        "table-view"
+    ],
+    "homepage": "http://www.phpcorner.net",
+    "authors": [
+        {
+            "name": "qingbing",
+            "email": "780042175@qq.com"
+        }
+    ],
+    "require": {
+        "qingbing/php-helper": ">=1.0, <2.0",
+        "qingbing/php-html": ">=1.0, <2.0",
+        "qingbing/php-render": ">=1.0, <2.0",
+        "qingbing/php-database": ">=1.0, <2.0",
+        "qingbing/php-assets-manager": ">=1.0, <2.0",
+        "qingbing/php-web-user": ">=1.0, <2.0",
+        "qingbing/php-error-handler": ">=1.0, <2.0",
+        "qingbing/php-file-cache": ">=1.0, <2.0",
+        "qingbing/php-captcha": ">=1.0, <2.0"
+    },
+    "require-dev": {
+        "qingbing/php-db-model": ">=1.0, <2.0",
+        "qingbing/php-table-view": ">=1.0, <2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dict\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Controllers\\": "test/controllers"
+        }
+    }
+}
