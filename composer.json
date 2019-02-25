@@ -28,10 +28,6 @@
         "qingbing/php-file-cache": ">=1.0, <2.0",
         "qingbing/php-captcha": ">=1.0, <2.0"
     },
-    "require-dev": {
-        "qingbing/php-db-model": ">=1.0, <2.0",
-        "qingbing/php-table-view": ">=1.0, <2.0"
-    },
     "autoload": {
         "psr-4": {
             "Dict\\": "src"
