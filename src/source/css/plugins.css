@@ -2,7 +2,7 @@
 /* js/plugins/ajaxPage/css/main.css */
 .w-ajax-page{}
 /* js/plugins/alert/css/main.css */
-.alert-box{width:50%;position:absolute;right:0;top:0;padding:10px;}
+.alert-box{width:50%;position:absolute;right:0;top:0;padding:10px;z-index:1001}
 /* js/plugins/checkbox/css/main.css */
 .w-checkbox{}
 /* js/plugins/dropdown/css/main.css */
