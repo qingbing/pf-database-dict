@@ -8,7 +8,7 @@
 return [
     'class' => '\Dict\Module',
     'username' => 'qingbing',
-    'password' => '123456',
+    'password' => '111111',
     'components' => [
         'user' => [
             'class' => '\Dict\Components\WebUser',
