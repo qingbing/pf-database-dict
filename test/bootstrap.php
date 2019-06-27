@@ -12,7 +12,7 @@ defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 // APP应用的客户端编码
 defined('APP_CHARSET') or define('APP_CHARSET', 'utf-8');
 // php是否调试模式
-//defined('APP_DEBUG') or define('APP_DEBUG', true);
+defined('APP_DEBUG') or define('APP_DEBUG', true);
 // 定义环境变量
 defined("PHP_ENV") or define("PHP_ENV", "dev");
 // 定义配置存放目录
