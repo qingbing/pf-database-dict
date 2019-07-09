@@ -34,8 +34,6 @@ class Module extends \Render\Abstracts\Module
                 'errorAction' => '//dict/default/error',
             ],
         ]);
-        // 资源复制
-        Pub::publishAssets();
     }
 
     /**
